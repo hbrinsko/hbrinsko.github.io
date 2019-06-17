@@ -1,5 +1,12 @@
-$background-color: #807984;
-
+$background-color: #EEE2DC;
+$primary: #123C69;
+$secondary: #EDC7B7;
+    
 body {
     background-color: $background-color;
+    font-family: Georgia, serif;
+}
+
+h3, p {
+    color: $primary;   
 }
