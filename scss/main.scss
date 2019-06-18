@@ -1,6 +1,7 @@
 $background-color: #EEE2DC;
 $primary: #123C69;
 $secondary: #EDC7B7;
+$hover: #AC3B61;
     
 body {
     background-color: $background-color;
@@ -9,4 +10,17 @@ body {
 
 h3, p {
     color: $primary;   
+}
+
+a {
+    color: $primary;
+    &:hover {
+        color: $hover;
+    }
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    left: 50px;
 }

@@ -4,3 +4,13 @@ body {
 
 h3, p {
   color: #123C69; }
+
+a {
+  color: #123C69; }
+  a:hover {
+    color: #AC3B61; }
+
+.container {
+  position: relative;
+  top: 50px;
+  left: 50px; }
